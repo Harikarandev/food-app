@@ -1,6 +1,6 @@
-import React,{useContext, useEffect, useState} from "react";
+import {useContext, useEffect, useState} from "react";
 import classes from './CartButton.module.css';
-import CartIcon from "../Cart/CartIcon";
+// import CartIcon from "../Cart/CartIcon";
 import CartContext from "../../Store/Cart-context";
 
 const CartButton = (props) =>{
@@ -37,7 +37,7 @@ const CartButton = (props) =>{
     return (
         <button className={btnclasses} onClick={props.onClick}>
             <span className={classes.icon}>
-                <CartIcon/>
+                {/* <CartIcon/> */}
             </span>
             <span>Your Cart</span>
             <span className={classes.badge}>{numberofCartItems}</span>

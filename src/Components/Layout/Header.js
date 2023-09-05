@@ -1,4 +1,4 @@
-import React from "react";
+
 
 import mealsImage from '../../assets/meals.jpg';
 import CartButton from '../Layout/CartButton';
